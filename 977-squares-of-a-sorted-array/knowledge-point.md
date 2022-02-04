@@ -5,11 +5,9 @@ vector<int> ans;
 ###### 内置函数
 push_back() Vector最后添加一个元素（参数为要插入的值）
 
-'''
-  int num = 10;
-  vector<int> vec;
-  vec.push_back(num);
-'''
+    int num = 10;
+    vector<int> vec;
+    vec.push_back(num);
 
 begin() 返回指向容器最开始位置数据的指针
 end() 返回指向容器最后一个数据单元+1的指针
