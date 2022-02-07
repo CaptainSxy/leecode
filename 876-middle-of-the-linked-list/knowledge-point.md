@@ -9,6 +9,6 @@
         }
     };
 
-把head头指针存入A
-A.back()取A中最后一个元素
+把head头指针存入A  
+A.back()取A中最后一个元素  
 while循环将head中所有元素地址都存入A
