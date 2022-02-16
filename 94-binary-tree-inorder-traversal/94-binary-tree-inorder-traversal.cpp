@@ -21,11 +21,7 @@ public:
         }
     }
     vector<int> inorderTraversal(TreeNode* root) {
-        if(root==nullptr)
-            return ans;
-        dfs(root->left);
-        ans.push_back(root->val);
-        dfs(root->right);
+        dfs(root);
         return ans;
     }
 };
